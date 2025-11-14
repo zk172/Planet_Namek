@@ -1,29 +1,65 @@
-body         { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CECECE}
-table        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CECECE}
-A:link       { color: #FF0000; }
-A:visited    { color: #CC0000; }
-A:hover      { color: #FF3333; }
-A:focus      { color: #FF3333; }
-A:active     { color: #330000; }
-.whitesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 20px; color: #CECECE; font-weight: bold}
-.whitessbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 18px; color: #CECECE; font-weight: bold}
-.whitesbgbd  { font-family: "Verdana", "Arial, Sans-serif"; font-size: 16px; color: #CECECE; font-weight: bold}
-.whitebgbd   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 13px; color: #CECECE; font-weight: bold}
-.whitebd     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 12px; color: #CECECE; font-weight: bold}
-.white       { font-family: "Verdana", "Arial, Sans-serif"; font-size: 12px; color: #CECECE}
-.whitesmbd   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CECECE; font-weight: bold}
-.whitesm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CECECE}
-.whitessm    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 10px; color: #CECECE}
-.whitesssm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 9px; color: #CECECE}
-.bluessm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 10px; color: #0066CC}
-.bluesmbd    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #0066CC; font-weight: bold}
-.bluesm      { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #0066CC}
-.blue        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 12px; color: #0066CC}
-.bluesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 50px; color: #0066CC; font-weight: bold}
-.orangebgbd  { font-family: "Verdana", "Arial, Sans-serif"; font-size: 13px; color: #FF6600; font-weight: bold}
-.whitesm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CECECE}
-.yellowsm    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #FFFF00}
-.yellow      { font-family: "Verdana", "Arial, Sans-serif"; font-size: 12px; color: #FFFF00}
-.darkred     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 12px; color: #CC0033}
-.yellowsbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 16px; color: #FFFF00; font-weight: bold}
-.darkredsm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 11px; color: #CC0033}
+body         { 
+	font-family: "Verdana", "Arial, Sans-serif"; 
+	font-size: 1em; 
+	color: #CECECE;
+	background-color:#000;
+	margin:0;
+	background-image:url('image/layout/background.gif');
+}
+
+
+:visited {
+	color:#CC0000;
+}
+
+
+:link:active, :visited:active {
+	color: #660000;
+}
+
+img {
+	border-width:0;
+}
+
+.spaced-text {
+	font-family:"Verdana,Arial,Helvetica"; color:#666666;
+	letter-spacing:4px;
+}
+
+
+.list-nav {
+	list-style-image:url("../image/layout/smalldot.gif");
+	list-style-type:disc;
+    padding-left:0;
+	margin-left:15px;
+}
+
+
+table        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; border-width:0;}
+a:link       { color: #FF0000; }
+a:visited    { color: #CC0000; }
+a:hover      { color: #FF3333; }
+a:focus      { color: #FF3333; }
+a:active     { color: #330000; }
+.whitesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1.25em; color: #CECECE; font-weight: bold}
+.whitessbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1.125em; color: #CECECE; font-weight: bold}
+.whitesbgbd  { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; font-weight: bold}
+.whitebgbd   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.8125em; color: #CECECE; font-weight: bold}
+.whitebd     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #CECECE; font-weight: bold}
+.white       { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #CECECE}
+.whitesmbd   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CECECE; font-weight: bold}
+.whitesm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CECECE}
+.whitessm    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.625em; color: #CECECE}
+.whitesssm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.5625em; color: #CECECE}
+.bluessm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.625em; color: #0066CC}
+.bluesmbd    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #0066CC; font-weight: bold}
+.bluesm      { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #0066CC}
+.blue        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #0066CC}
+.bluesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 3.125em; color: #0066CC; font-weight: bold}
+.orangebgbd  { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.8125em; color: #FF6600; font-weight: bold}
+.whitesm     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CECECE}
+.yellowsm    { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #FFFF00}
+.yellow      { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #FFFF00}
+.darkred     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #CC0033}
+.yellowsbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #FFFF00; font-weight: bold}
+.darkredsm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CC0033}
