@@ -2,38 +2,15 @@ body         {
 	font-family: "Verdana", "Arial, Sans-serif"; 
 	font-size: 1rem; 
 	color: #CECECE;
-/*	background-color:#000;*/
+	background-color:#000;
 	margin:0;
-/*	background-image:url('image/layout/background.gif');*/
-background-image:url("image/layout/banner_topbuffer.gif"), url("image/layout/banner_bottombuffer.gif");
-background-position-x:220px 1000px;
-background-position-y:0px 180px;
-background-repeat:none, none;
-background-size:468px 5px,468px 5px;
+	background-image:url('image/layout/background.gif');
 }
 
-.diagonal-bg {
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  color: white;
-
-  background: repeating-linear-gradient(
-    -45deg,       /* angle of the stripe */
-    #0077b6 0,
-    #0077b6 20px, /* stripe thickness */
-    #ffffff 20px,
-    #ffffff 40px  /* gap thickness */
-  );
+.container {
+	margin-left:10px;
 }
 
-
-.topb {
-/*	display:inline;*/
-	float:right;
-}
 
 :visited {
 	color:#CC0000;
