@@ -1,12 +1,39 @@
 body         { 
 	font-family: "Verdana", "Arial, Sans-serif"; 
-	font-size: 1em; 
+	font-size: 1rem; 
 	color: #CECECE;
-	background-color:#000;
+/*	background-color:#000;*/
 	margin:0;
-	background-image:url('image/layout/background.gif');
+/*	background-image:url('image/layout/background.gif');*/
+background-image:url("image/layout/banner_topbuffer.gif"), url("image/layout/banner_bottombuffer.gif");
+background-position-x:220px 1000px;
+background-position-y:0px 180px;
+background-repeat:none, none;
+background-size:468px 5px,468px 5px;
 }
 
+.diagonal-bg {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: white;
+
+  background: repeating-linear-gradient(
+    -45deg,       /* angle of the stripe */
+    #0077b6 0,
+    #0077b6 20px, /* stripe thickness */
+    #ffffff 20px,
+    #ffffff 40px  /* gap thickness */
+  );
+}
+
+
+.topb {
+/*	display:inline;*/
+	float:right;
+}
 
 :visited {
 	color:#CC0000;
@@ -35,13 +62,13 @@ img {
 }
 
 
-table        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; border-width:0;}
+table        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; border-width:0;} /*11px*/
 a:link       { color: #FF0000; }
 a:visited    { color: #CC0000; }
 a:hover      { color: #FF3333; }
 a:focus      { color: #FF3333; }
 a:active     { color: #330000; }
-.whitesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1.25em; color: #CECECE; font-weight: bold}
+.whitesssbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1.25rem; color: #CECECE; font-weight: bold}
 .whitessbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1.125em; color: #CECECE; font-weight: bold}
 .whitesbgbd  { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; font-weight: bold}
 .whitebgbd   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.8125em; color: #CECECE; font-weight: bold}
@@ -63,3 +90,14 @@ a:active     { color: #330000; }
 .darkred     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #CC0033}
 .yellowsbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #FFFF00; font-weight: bold}
 .darkredsm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CC0033}
+
+
+
+.hero {
+  position: relative;
+  color: white;
+  text-align: left;
+  padding-bottom:3px;
+  background: linear-gradient(135deg, #4a90e2, #0077b6);
+/*  overflow: hidden;*/
+}
