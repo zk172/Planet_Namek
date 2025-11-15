@@ -4,7 +4,7 @@ body         {
 	color: #CECECE;
 	background-color:#000;
 	margin:0;
-	background-image:url('image/layout/background.gif');
+/*	background-image:url('image/layout/background.gif');*/
 }
 
 .container {
@@ -67,14 +67,3 @@ a:active     { color: #330000; }
 .darkred     { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.75em; color: #CC0033}
 .yellowsbgbd { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #FFFF00; font-weight: bold}
 .darkredsm   { font-family: "Verdana", "Arial, Sans-serif"; font-size: 0.6875em; color: #CC0033}
-
-
-
-.hero {
-  position: relative;
-  color: white;
-  text-align: left;
-  padding-bottom:3px;
-  background: linear-gradient(135deg, #4a90e2, #0077b6);
-/*  overflow: hidden;*/
-}

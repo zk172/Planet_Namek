@@ -1,13 +1,48 @@
+/*https://codepen.io/bmcarthur/pen/vQrpYY*/
+
+
+.buffer-container {
+  display:flex;
+flex-direction:row;
+
+}
+
+.buffer {
+height:1px;
+position:absolute;
+top:10px;
+left:100px;
+background-color:#949494;
+width:100%;
+}
+
+.buffer2 {
+height:70px;
+position:absolute;
+top:11px;
+left:100px;
+background-color:#333;
+width:100%;
+}
+
+.logo {
+  margin-top:10px;
+}
 
 .gal-font {
-  font-family:"Verdana,Arial,Helvetica";
+  font-family:"Verdana","Arial","Helvetica";
   color:#000;
-font-size:larger;
+  font-size:larger;
+  background-color:#fff;
+}
+
+.caption {
+  background-color:#eee;
 }
 
 .gallery-block.grid-gallery{
   padding-bottom: 60px;
-  padding-top: 60px;
+/*  padding-top: 60px;*/
 }
 
 .gallery-block.grid-gallery .heading{
@@ -26,8 +61,9 @@ font-size:larger;
 }
 
 .gallery-block.grid-gallery .item img{
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-  transition: 0.4s;
+ /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s; */
+  height: 75px;
 }
 
 .gallery-block.grid-gallery .item{
@@ -53,15 +89,12 @@ font-size:larger;
   color: white;
 
   background: repeating-linear-gradient(
-    -45deg,       /* angle of the stripe */
-    #0077b6 0,
+    270deg,       /* angle of the stripe */
+    #fc0 10px,
     #0077b6 20px, /* stripe thickness */
-    #ffffff 20px,
-    #ffffff 40px  /* gap thickness */
+    #000 40px,
+    #ffffff 100px  /* gap thickness */
   );
 }
 
 
-.left {
-  
-}
