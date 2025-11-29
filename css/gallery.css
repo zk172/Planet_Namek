@@ -8,16 +8,17 @@
 }
 
 .sprite-img.logo {
-  background-position: 0 0;
+  background-position: 0 -7px;
   width:214px;
-  height:75px;
-
+  height:68px;
+float:left;
 }
 
 .sprite-img.sponsor {
-  background-position:-214px 0px;
+  background-position:-214px -7px;
   width:3px;
-  height:75px;
+  height:68px;
+  float:left;
 }
 
 .sprite-img.buffer33 {
@@ -26,21 +27,21 @@
   height:75px;
   transform-origin: 0 0;
   transform:scaleX(100);
-/*  overflow:hidden;*/
+float:left;
 }
 
 .sprite-img.end {
-  background-position:-222px 0px;
+  background-position:-222px -7px;
   width:79px;
-  height:75px;
-  transform: translateX(600px);
-/*  overflow:hidden;*/
+  height:68px;
+/*  transform: translateX(600px);*/
+/*float:left;*/
 }
 
 .buffer-container {
   display:flex;
 flex-direction:row;
-
+margin-top:7px;
 }
 
 .buffer {
@@ -53,7 +54,7 @@ width:90%;
 }
 
 .buffer2 {
-height:70px;
+height:68px;
 /*position:absolute;
 top:11px;
 left:100px;
@@ -64,6 +65,7 @@ width:90%;
 .header {
   margin-top:10px;
   margin-left:10px;
+  overflow-x:hidden;
 }
 
 .gal-font {
