@@ -56,6 +56,56 @@ float:left;
   height:20px;
 }
 
+
+.sprite-img.section.pn-old {
+  background-position:-419px -27px;
+  width: 125px;
+  height: 15px;
+}
+
+.sprite-img.section.info-old {
+  background-position:-419px -43px;
+  width: 125px;
+  height: 15px;
+}
+
+.sprite-img.section.fans-old {
+  background-position:-419px -60px;
+  width: 125px;
+  height: 15px;
+}
+
+.sprite-img.section.community {
+  background-position:-301px -28px;
+  width: 110px;
+  height: 15px;
+}
+
+.sprite-img.section.top-news {
+  background-position:-301px -44px;
+  width: 110px;
+  height: 15px;
+}
+
+.sprite-img.section.releases {
+  background-position:-301px -60px;
+  width: 110px;
+  height: 15px;
+}
+
+.sprite-img.section.humor {
+  background-position:0px -76px;
+  width: 549px;
+  height: 30px;
+}
+
+.sprite-img.section.battle {
+  background-position:0px -108px;
+  width: 549px;
+  height: 30px;
+}
+
+
 .buffer-container {
   display:flex;
 flex-direction:row;
