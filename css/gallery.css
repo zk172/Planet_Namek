@@ -1,5 +1,41 @@
 /*https://codepen.io/bmcarthur/pen/vQrpYY*/
 
+.sprite-img {
+  background-image: url("../image/layout/planet_namek_img_sprite.png");
+  background-repeat:no-repeat;
+  height:137px;
+  width:549px;
+}
+
+.sprite-img.logo {
+  background-position: 0 0;
+  width:214px;
+  height:75px;
+
+}
+
+.sprite-img.sponsor {
+  background-position:-214px 0px;
+  width:3px;
+  height:75px;
+}
+
+.sprite-img.buffer33 {
+  background-position:-217px 0px;
+  width:6px;
+  height:75px;
+  transform-origin: 0 0;
+  transform:scaleX(100);
+/*  overflow:hidden;*/
+}
+
+.sprite-img.end {
+  background-position:-222px 0px;
+  width:79px;
+  height:75px;
+  transform: translateX(600px);
+/*  overflow:hidden;*/
+}
 
 .buffer-container {
   display:flex;
@@ -18,16 +54,16 @@ width:90%;
 
 .buffer2 {
 height:70px;
-position:absolute;
+/*position:absolute;
 top:11px;
 left:100px;
-background-color:#333;
+*/background-color:#333;
 width:90%;
 }
 
-.logo {
+.header {
   margin-top:10px;
-  margin-left:-23px;
+  margin-left:10px;
 }
 
 .gal-font {
