@@ -9,6 +9,12 @@ body         {
 }
 
 
+@media (min-width:992px) {
+  .container {
+	   width:65%;
+   }
+}
+
 @media (max-width:768px) {
 
   body {
@@ -22,11 +28,12 @@ body         {
   .gal-font {
   	width:160%;
   }
+
 }
 
 .container {
 	margin-left:10px;
-}
+
 
 
 :visited {

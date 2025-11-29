@@ -38,6 +38,24 @@ float:left;
 /*float:left;*/
 }
 
+
+.sprite-img.section {
+  margin-top:10px;
+  margin-left:-10px;
+}
+
+.sprite-img.section.info {
+  background-position:-325px 0px;
+  width:129px;
+  height:20px;
+}
+
+.sprite-img.section.fanservices {
+  background-position:-454px 0px;
+  width:129px;
+  height:20px;
+}
+
 .buffer-container {
   display:flex;
 flex-direction:row;
