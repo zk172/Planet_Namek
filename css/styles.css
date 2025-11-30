@@ -63,9 +63,23 @@ img {
 	margin-top:5px;
 }
 
-.section-title {
+
+.imp-text {
+	color:#FFFF33;
+}
+
+.ctr {
+	text-align:center;
 	margin-top:10px;
-	margin-left:-10px;
+}
+
+.left {
+	text-align:left;
+}
+
+.ads-side {
+	display:block;
+	margin:10px 0 0 10px;
 }
 
 table        { font-family: "Verdana", "Arial, Sans-serif"; font-size: 1em; color: #CECECE; border-width:0;} /*11px*/

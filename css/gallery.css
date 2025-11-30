@@ -44,6 +44,16 @@ float:left;
   margin-left:-10px;
 }
 
+
+.sprite-img.top-section {
+   margin:0 4px;
+}
+
+
+div.col-9 > div:nth-child(1) > a:link{
+  text-decoration: none;
+}
+
 .sprite-img.section.info {
   background-position:-325px 0px;
   width:129px;
@@ -75,25 +85,25 @@ float:left;
   height: 15px;
 }
 
-.sprite-img.section.community {
+.sprite-img.top-section.community {
   background-position:-301px -28px;
   width: 110px;
   height: 15px;
 }
 
-.sprite-img.section.top-news {
+.sprite-img.top-section.top-news {
   background-position:-301px -44px;
   width: 110px;
   height: 15px;
 }
 
-.sprite-img.section.releases {
+.sprite-img.top-section.releases {
   background-position:-301px -60px;
   width: 110px;
   height: 15px;
 }
 
-.sprite-img.section.humor {
+.sprite-img.humor {
   background-position:0px -76px;
   width: 549px;
   height: 30px;
