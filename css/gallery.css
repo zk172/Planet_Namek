@@ -197,6 +197,10 @@ width:90%;
   margin:0 auto;
 }
 
+.img-flex {
+  max-width:100%;
+  height:auto;
+}
 
 /* Lightbox styles */
 .lightbox {
