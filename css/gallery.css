@@ -3,8 +3,8 @@
 .sprite-img {
   background-image: url("../image/layout/planet_namek_img_sprite.png");
   background-repeat:no-repeat;
-  height:137px;
-  width:549px;
+  height:421px;
+  width:609px;
 }
 
 .sprite-img.logo {
@@ -113,6 +113,24 @@ div.col-9 > div:nth-child(1) > a:link{
   background-position:0px -108px;
   width: 549px;
   height: 30px;
+}
+
+.sprite-img.section.enc {
+  background-position:0px -138px;
+  width:550px;
+  height:30px;
+}
+
+.sprite-img.logo2 {
+  background-position:0px -296px;
+  width:410px;
+  height:125px;  
+}
+
+.sprite-img.logo3 {
+  background-position:0px -170px;
+  width:550px;
+  height:126px;  
 }
 
 
